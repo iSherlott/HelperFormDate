@@ -1,5 +1,6 @@
 module.exports = class FormatDate {
   constructor(time) {
+    this.time = new Date(time);
     this.day = new Date(time).getDate();
     this.month = new Date(time).getMonth() + 1;
     this.fullYear = new Date(time).getFullYear();
@@ -149,14 +150,25 @@ module.exports = class FormatDate {
     }
   }
 
+  timeStamp() {
+    return this.time.getTime();
+  }
+
+  timeStampNow() {
+    return new Date().getTime();
+  }
+
   all() {
     if (this.errors.length > 0) return this.errors;
     else {
+      console.log(`Clean Date: ${this.time}`);
       console.log(`formatDate: ${this.formatDate()}`);
       console.log(`formatTime: ${this.formatTime()}`);
       console.log(`makeMask: ${this.makeMask()}`);
       console.log(`genMaskDateNow: ${this.genMaskDateNow()}`);
       console.log(`genMask: ${this.genMask()}`);
+      console.log(`timeStamp ${this.timeStamp()}`);
+      console.log(`timeStampNow: ${this.timeStampNow()}`);
     }
   }
 };
