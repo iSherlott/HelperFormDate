@@ -22,6 +22,8 @@ e declarar qual o tipo de retorno que deseja dessa data, os metodos de retorno e
 - all: Verifica se há algum erro entre todas as chamadas, caso não haja erro, exibe todas as chamadas acima, se ocorrer erro, exibe somente todos os erros existente.
 <br />
 
+<img src="https://github.com/iSherlott/HelperFormDate/blob/main/helperformdate.PNG?raw=true">
+
 ## Suas chamadas, seguindo o exemplo acima ficaria:
 - `dataMask.formatDate`
 - `dataMask.formatTime`
