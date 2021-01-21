@@ -1,11 +1,11 @@
 module.exports = class FormatDate {
   constructor(time) {
-    this.day = time.getDate();
-    this.month = time.getMonth() + 1;
-    this.fullYear = time.getFullYear();
-    this.hours = time.getHours();
-    this.minutes = time.getMinutes();
-    this.seconds = time.getSeconds();
+    this.day = new Date(time).getDate();
+    this.month = new Date(time).getMonth() + 1;
+    this.fullYear = new Date(time).getFullYear();
+    this.hours = new Date(time).getHours();
+    this.minutes = new Date(time).getMinutes();
+    this.seconds = new Date(time).getSeconds();
     this.errors = [];
   }
 
