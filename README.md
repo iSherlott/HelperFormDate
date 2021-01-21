@@ -19,7 +19,7 @@ e declarar qual o tipo de retorno que deseja dessa data, os metodos de retorno e
 - genMask: Tem o mesmo retorno do makeMask, contudo se a data fornecida for a mesma da data atual, ira retorna somente a hora.
 - timeStamp: Retorna o TimeStamp.
 - timeStampNow: Retorna o TimeStamp atual.
-- all: Verifica se há algum erro entre todas as chamadas, caso não aja erro, exibe todas as chamadas acima, se ocorrer erro, exibe somente todos os erros existente.
+- all: Verifica se há algum erro entre todas as chamadas, caso não haja erro, exibe todas as chamadas acima, se ocorrer erro, exibe somente todos os erros existente.
 <br />
 
 ## Suas chamadas, seguindo o exemplo acima ficaria:
