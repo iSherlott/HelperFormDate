@@ -26,7 +26,7 @@ e declarar qual o tipo de retorno que deseja dessa data, os metodos de retorno e
 - `dataMask.genMaskDateNow`
 - `dataMask.genMask`
 
-## parametro de entrada permitidos:
+## Parametro de entrada permitidos:
 - String
 - Date
 - TimeStamp
