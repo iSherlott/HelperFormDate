@@ -8,10 +8,8 @@ Seu uso e simples, faça a chamada do Helper em seu projeto:<br />
 `const HelperFormatDate = require("./helperFormatDate");`
 
 Após fazer a chamada do mesmo, seu uso será por meio de instancia, basta distanciar ele com a data que deseja efetuar a formatação<br />
-`
-let date = "12/31/2021"
-let dataMask = new HelperFormatDate(date);
-`
+`let date = "12/31/2021"`<br />
+`let dataMask = new HelperFormatDate(date);`<br />
 <br />
 e declarar qual o tipo de retorno que deseja dessa data, os metodos de retorno existente são:<br />
 - formatDate: Retorna somente a data formatada ao padrão Brasileiro (DD/MM/YYYY)
