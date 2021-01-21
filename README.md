@@ -17,6 +17,9 @@ e declarar qual o tipo de retorno que deseja dessa data, os metodos de retorno e
 - makeMask: Retorna a data e hora no padrão Brasileiro DD/MM/YYYY HH:MM:SS
 - genMaskDateNow: Retorna a data atual no formato DD/MM/YYYY
 - genMask: Tem o mesmo retorno do makeMask, contudo se a data fornecida for a mesma da data atual, ira retorna somente a hora.
+- timeStamp: Retorna o TimeStamp.
+- timeStampNow: Retorna o TimeStamp atual.
+- all: Verifica se há algum erro entre todas as chamadas, caso não aja erro, exibe todas as chamadas acima, se ocorrer erro, exibe somente todos os erros existente.
 <br />
 
 ## Suas chamadas, seguindo o exemplo acima ficaria:
@@ -25,11 +28,17 @@ e declarar qual o tipo de retorno que deseja dessa data, os metodos de retorno e
 - `dataMask.makeMask`
 - `dataMask.genMaskDateNow`
 - `dataMask.genMask`
+- `dataMask.timeStamp`
+- `dataMask.timeStampNow`
+- `dataMask.all`
 
 ## Parametro de entrada permitidos:
 - String
 - Date
 - TimeStamp
+
+## Obs
+Se não for informado hora no parametro, o mesmo se encontrara zerado.
 
 # Notas Finais
 
