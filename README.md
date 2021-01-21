@@ -1,6 +1,6 @@
 # HelperFormDate
 
-Helper construido para formatar datas e horas de forma altomatica, seguindo pequenas diretrizes.
+Helper construido para formatar datas e horas de forma automática, seguindo pequenas diretrizes.
 
 ## Forma de usar:
 
