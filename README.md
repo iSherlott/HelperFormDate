@@ -7,7 +7,7 @@ Helper construido para formatar datas e horas de forma automática, seguindo peq
 Seu uso e simples, faça a chamada do Helper em seu projeto:<br />
 `const HelperFormatDate = require("./helperFormatDate");`
 
-Após fazer a chamada do mesmo, seu uso será por meio de instancia, basta instanciar ele com a data que deseja efetuar a formatação<br />
+Após fazer a chamada do mesmo, seu uso será por meio de instancia, basta instanciar ele com a data que deseja efetuar a formatação, assim como no exemplo abaixo:<br />
 `let date = "12/31/2021"`<br />
 `let dataMask = new HelperFormatDate(date);`<br />
 <br />
@@ -25,14 +25,14 @@ e declarar qual o tipo de retorno que deseja dessa data, os metodos de retorno e
 <img src="https://github.com/iSherlott/HelperFormDate/blob/main/helperformdate.PNG?raw=true">
 
 ## Suas chamadas, seguindo o exemplo acima ficaria:
-- `dataMask.formatDate`
-- `dataMask.formatTime`
-- `dataMask.makeMask`
-- `dataMask.genMaskDateNow`
-- `dataMask.genMask`
-- `dataMask.timeStamp`
-- `dataMask.timeStampNow`
-- `dataMask.all`
+- `dataMask.formatDate()`
+- `dataMask.formatTime()`
+- `dataMask.makeMask()`
+- `dataMask.genMaskDateNow()`
+- `dataMask.genMask()`
+- `dataMask.timeStamp()`
+- `dataMask.timeStampNow()`
+- `dataMask.all()`
 
 ## Parametro de entrada permitidos:
 - String
